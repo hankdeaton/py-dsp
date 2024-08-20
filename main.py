@@ -32,3 +32,6 @@ shannon_hartley_theorem_dbm(4e3, -67, -90, psumm=True)
 shannon_hartley_theorem_dbm(5e3, -70, -90, psumm=True)
 
 print()
+
+print(pathloss_friis(10000, 2, 50, 1, 1, 900e6))
+print(pathloss_tworay(10000, 2, 50, 1, 1, 900e6, -0.9))
